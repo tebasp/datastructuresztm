@@ -1,0 +1,18 @@
+{
+    "name": "tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "binarySearchTree.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "yarn run build && node dist/algorithms/searching/DFSTest.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^9.0.0"
+    }
+}
