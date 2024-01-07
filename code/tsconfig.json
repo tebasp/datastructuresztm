@@ -1,8 +1,9 @@
 {
-  "compilerOptions": {
-    "outDir": "./dist",
-    "allowJs": true,
-    "module": "CommonJS"
-  },
-  "exclude": ["node_modules", "./dist"]
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": true,
+        "module": "CommonJS",
+        "lib": ["es2015", "DOM"]
+    },
+    "exclude": ["node_modules", "./dist"]
 }

@@ -5,7 +5,7 @@
     "main": "binarySearchTree.js",
     "scripts": {
         "build": "tsc",
-        "start": "yarn run build && node dist/algorithms/searching/DFSTest.js"
+        "start": "yarn run build && node dist/algorithms/dynamic/test.js"
     },
     "author": "",
     "license": "ISC",
